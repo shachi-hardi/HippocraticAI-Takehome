@@ -2,7 +2,6 @@
 
 This project is a Python script that generates safe, age-appropriate bedtime stories for children ages **5–10** using a structured prompting pipeline and an LLM judge.
 
----
 
 ## Overview
 
@@ -16,7 +15,7 @@ Given a short user prompt (for example, *“A story about a bunny and a kitten�
 
 All model calls use **gpt-3.5-turbo**, as required.
 
----
+
 
 ## Key Features
 
@@ -33,7 +32,7 @@ Before writing the story, the system creates a **6-beat arc**:
 
 This improves pacing and ensures a calm, age-appropriate narrative.
 
----
+
 
 ### LLM Judge
 
@@ -48,7 +47,6 @@ A separate LLM call evaluates the story using a rubric:
 
 If the story fails, the judge returns **fixes**, which are applied in a revision loop.
 
----
 
 ### User Feedback Loop
 
@@ -61,7 +59,6 @@ After the final story is printed, the user can request changes such as:
 
 The system applies this feedback in one additional revision pass.
 
----
 
 ## System Flow (High Level)
 
@@ -93,7 +90,7 @@ pip install openai==0.28.1
 python storyteller.py
 ```
 
-
+![Block Diagram](diagram.jpg)
 
 
 
