@@ -93,6 +93,7 @@ setx OPENAI_API_KEY "your_api_key_here"
 pip install openai==0.28.1
 
 python storyteller.py
+```
 
 ![System Block Diagram](diagram.png)
 
