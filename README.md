@@ -2,8 +2,6 @@
 
 This project is a Python script that generates safe, age-appropriate bedtime stories for children ages **5–10** using a structured prompting pipeline and an LLM judge.
 
-The system emphasizes **story structure**, **safety**, and **iterative improvement**, while remaining simple and easy to explain.
-
 ---
 
 ## Overview
@@ -48,7 +46,7 @@ A separate LLM call evaluates the story using a rubric:
 * Creativity  
 * Safety  
 
-If the story fails, the judge returns **concrete fixes**, which are applied in a bounded revision loop.
+If the story fails, the judge returns **fixes**, which are applied in a revision loop.
 
 ---
 
