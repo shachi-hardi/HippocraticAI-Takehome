@@ -95,7 +95,7 @@ pip install openai==0.28.1
 python storyteller.py
 ```
 
-![Block Diagram](diagram.png)
+![Block Diagram](diagram.jpg)
 
 
 
