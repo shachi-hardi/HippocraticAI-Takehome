@@ -90,8 +90,6 @@ The system applies this feedback in one additional revision pass.
 ```powershell
 setx OPENAI_API_KEY "your_api_key_here"
 
-```powershell
 pip install openai==0.28.1
 
-```powershell
 python storyteller.py
