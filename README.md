@@ -53,8 +53,7 @@ If the story fails, the judge returns **fixes**, which are applied in a revision
 After the final story is printed, the user can request changes such as:
 
 * “shorter”  
-* “funnier”  
-* “more magical”  
+* “longer”  
 * “different ending”  
 
 The system applies this feedback in one additional revision pass.
